@@ -211,7 +211,24 @@ footer #links > div a{
     color: inherit;
 }
 
+@media all and (max-width:419px){
+    header{
+        justify-content: center
+    };
 
+}
+
+@media all and (max-width:664px){
+    footer #links{
+        justify-content: center;
+    }
+}
+
+@media all and (max-width: 1200px){
+    footer #links > div{
+        justify-content: space-evenly;
+    }
+}
 
 
 
